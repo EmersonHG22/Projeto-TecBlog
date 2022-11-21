@@ -29,11 +29,10 @@ body{
 	width: 920px;
 	margin:0 auto;
 	padding: 15px;
+	
 }
 
-#area-postagens,#area-lateral{
-background: orange;
-}
+
 #area-postagens{
 	width:660px;
 	float: left;
@@ -41,7 +40,7 @@ background: orange;
 
 #area-lateral{
 	width: 240px;
-	float: right;
+	float: left;
 	
 	
 }
@@ -50,15 +49,25 @@ background: orange;
 	padding: 20px;
 	margin-bottom: 20px;
 	background: white;
+	
 }
 
-#rodape{
-	clear: both ;
-	text-align: center;
-	padding: 15px;
-	background:#CCC;
+.conteudo-lateral{
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+	
+}
+
+.postagem-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+	/*border-bottom: 1px dotted #CCC ;*/
 
 }
+
+
+	
 /* formatação do Menu */
 
 a{
@@ -66,14 +75,23 @@ a{
 }
 
 a:link, a:visited{
-	color:#fff;
-	padding: 8px 12px;
+	color:#f7b600
+
 }
 
 a:hover {
-	color: #f7b600;
-	background: white;
+	text-decoration: underline;
 
+
+}
+#area-cabecalho a:link, #area-cabecalho a:visited{
+color: #FFF;
+padding: 8px 12px;
+}
+
+#area-cabecalho a:hover{
+	color: #f7b600;
+	background: #FFF;
 }
 /* Formatações em geral */
 
@@ -84,6 +102,12 @@ h1 {
 
 h2 {
 color:#f7b600;
+}
+
+h3{
+	color: #565656;
+	background: #CCC ;
+	padding: 5px;
 }
 
 .data-postagem{
@@ -98,3 +122,13 @@ color:#f7b600;
 .branco{
 	color: white;
 }
+
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background:#CCC;
+	
+   
+	
+	}
